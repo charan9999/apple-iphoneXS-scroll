@@ -12,6 +12,36 @@ section {
     width: 100vw;
 }
 
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    width: auto;
+    padding: 20px;
+    border-bottom: 1px solid #fcfcfc;
+}
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #ccc;
+}
+
+li.last{
+    border-right: none;
+}
+
 h2 {
     font-size: 50px;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
